@@ -18,18 +18,6 @@ public class Agenda {
         lista.adiciona("Julia", "11", 3, "Carlos@gmail.com", "Dono do petshop");
 
         // instancia a view depois de já existir a Lista
-        
-
-        //lista.imprime();
-        
-        //lista.remove("987654321");
-        
-        //System.out.println("\n\n"+ lista.getCabeca());
-        //lista.imprime();
-        
-        //System.out.println(lista.busca(0));
-        
-        //lista.imprime();
        
         JFrameAgenda menu = new JFrameAgenda(lista); 
         menu.setLista(lista);
